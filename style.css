@@ -1,0 +1,1594 @@
+@font-face {
+    font-family: "jost-regular";
+    src:
+        local("jost-regular"),
+        url("./style/jost-regular.ttf") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+.color-glav {
+    background: #f6623e;
+    width: 100%;
+    height: 57px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    max-width: 1680px;
+    margin: 0 auto;
+
+}
+
+.contanier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.flags {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.text-header {
+    color: #FFFFFF;
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.flags a {
+    color: #FFFFFF;
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.flags {
+    color: #FFFFFF;
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.foto-linia {
+    margin-left: 20px;
+}
+
+.foto-flag {
+    margin-left: 20px;
+}
+
+.knopka-div {
+    transition: all 0.4s ease;
+    display: inline-block;
+}
+
+.knopka-div:hover {
+    transform: scale(1.4);
+    font-size: 1.5y;
+}
+
+.flags h2 {
+    margin-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contan-dop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+
+
+.text-market {
+    word-spacing: 40px;
+}
+
+.text-glav {
+    text-decoration: none;
+    color: #000000;
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.4s ease;
+    color: black;
+    display: inline-block;
+}
+
+
+
+
+
+.loupe {
+    transition: all 0.4s ease;
+    display: inline-block;
+}
+
+.loupe:hover {
+    transform: scale(1.09);
+    font-size: 1.5y;
+}
+
+.cymka {
+    transition: all 0.4s ease;
+    display: inline-block;
+}
+
+.cymka:hover {
+    transform: scale(1.09);
+    font-size: 1.5y;
+}
+
+
+
+.text-glav:hover {
+    transform: scale(1.2);
+    font-size: 1.5y;
+    color: #f6633e91;
+}
+
+.text-home {
+    text-decoration: none;
+    color: #f6633e;
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo-text a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "jost-regular";
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.foto-glav {
+    background-image: url(./image/foto1.svg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 41px;
+    display: flex;
+    justify-content: end;
+}
+
+.glav-margin {
+    padding-right: 280px;
+    padding-top: 150px;
+}
+
+.text-glav-niz h1 {
+    text-decoration: none;
+    color: #f6623e;
+    font-family: "jost-regular";
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.text-glav-niz h2 {
+    text-decoration: none;
+    color: #000000;
+    font-family: "jost-regular";
+    font-size: 56px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.text-glav-niz h3 {
+    text-decoration: none;
+    color: #454545;
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 27px;
+}
+
+.social-link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 51px;
+
+}
+
+.social-link a {
+    background: #f6623e;
+    padding: 11px 20px;
+    text-decoration: none;
+    margin-top: 40px;
+    transition: color 0.3s linear;
+}
+
+.social-link a:hover {
+    color: #000000;
+}
+
+
+
+.social-link a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+.glav-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 66px;
+}
+
+.kartocki-text img {
+    margin-top: 20px;
+}
+
+.kartocki-text h1 {
+    font-family: "jost-regular";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.kartocki-text h2 {
+    margin-top: 24px;
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 40;
+    color: #454545;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kartocki-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.kartocki-odin img {
+
+    margin-top: 36px;
+
+
+}
+
+.kartocki-odin h1 {
+
+    margin-top: 22px;
+
+    font-family: "jost-regular";
+    font-size: 19px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+
+
+
+
+
+.site-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 120px;
+}
+
+.glav-site {}
+
+.glav-site img {
+    margin-top: 138px;
+}
+
+
+
+
+
+
+.glav-site h1 {
+    margin-top: 25px;
+
+    font-family: "jost-regular";
+    font-size: 21px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.glav-site h2 {
+    margin-top: 11px;
+
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 400;
+    color: #454545;
+}
+
+
+
+
+
+
+.color-beauty {
+    margin-top: 139px;
+    width: 100%;
+    height: 678px;
+    background: #FFF8F6;
+
+
+}
+
+
+.beauty-div {
+    display: flex;
+    align-items: center;
+}
+
+.text-beauty {
+    margin-top: 139px;
+    margin-left: 180px;
+}
+
+
+
+
+
+
+.text-beauty-glav h1 {
+    font-family: "jost-regular";
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.text-beauty-glav h2 {
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 400;
+    color: #454545;
+    margin-top: 17px;
+}
+
+.text-beauty-glav h3 {
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 400;
+    color: #454545;
+    margin-top: 12px;
+}
+
+.text-beauty-glav p {
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 400;
+    color: #454545;
+    margin-top: 12px;
+}
+
+
+.button-beauty {
+    display: inline-block;
+    margin-top: 52px;
+    background-color: transparent;
+    border: 2px solid #f6623e;
+    color: #333;
+    padding: 16px 45px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-beauty:hover {
+    background-color: #f6633e6c;
+    ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.button-text {
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.foto-beauty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-beauty img {
+    padding-left: 169px;
+    padding-bottom: 15px;
+}
+
+.foto-beauty-dop {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+/* оформление products-text */
+
+.products-text {
+    display: flex;
+    justify-content: center;
+}
+
+.glav-products {
+    margin-top: 136px;
+    font-family: "jost-regular";
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* оформление products-text */
+
+
+
+
+
+
+
+.products-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.products-money h2,
+.products-money p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10.05px;
+    margin-right: 10.05px;
+}
+
+.products-are img {
+    margin-top: 58px;
+}
+
+.products-money {
+    margin-top: 8px;
+}
+
+/* оформление products-div */
+
+.products-are h1 {
+    margin-top: 22px;
+    font-family: "jost-regular";
+    font-size: 19px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.products-money h2 {
+    font-family: "jost-regular";
+    font-size: 14px;
+    font-weight: 400;
+    color: #f6633e;
+}
+
+.products-money p {
+    text-decoration: line-through;
+    color: #454545;
+
+    font-family: "jost-regular";
+    font-size: 14px;
+    font-weight: 400;
+    color: #454545;
+}
+
+/* cтили к products-div*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* оформление real-foto */
+.real-foto {
+    background-image: url(./real-foto/foto-glav.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 85px;
+
+}
+
+/* оформление real-foto */
+
+
+/* стили real-foto */
+.real-div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.real-foto-dop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.real-foto-dop img {
+
+    height: 55%;
+    margin-left: 350px;
+}
+
+.button-one,
+.button-two {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button-one {
+    transition: all 0.4s ease;
+}
+
+.button-one:hover {
+    transform: scale(1.05);
+    font-size: 1.5y;
+}
+
+.button-two {
+    transition: all 0.4s ease;
+}
+
+.button-two:hover {
+    transform: scale(1.05);
+    font-size: 1.5y;
+}
+
+
+
+
+
+
+
+
+
+.real-text h1 {
+    font-family: "jost-regular";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 6px;
+}
+
+.real-text h2 {
+    letter-spacing: 3px;
+    font-family: "jost-regular";
+    font-size: 33px;
+    font-weight: 700;
+    color: #F6623E
+}
+
+.real-text-dop h1 {
+    font-family: "jost-regular";
+    font-size: 21px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 33px;
+}
+
+.real-text-dop h2 {
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 700;
+    color: #F6623E
+}
+
+/* стили real-foto */
+
+/* отступы real-foto */
+
+
+.real-text h1 {
+    padding-top: 270px;
+}
+
+.real-text h2 {
+    margin-top: 46px;
+}
+
+.real-estimation img {
+    margin-top: 24px;
+}
+
+.real-text-dop h1 {
+    margin-top: 24px;
+}
+
+.real-text-dop h2 {
+    margin-top: 23px;
+}
+
+.real-button {
+    margin-top: 32px;
+}
+
+/* отступы real-foto */
+
+
+
+
+
+
+
+
+
+
+/*оформление shop-div-text */
+
+.shop-div-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 82px;
+}
+
+.text-shop {
+    font-family: "jost-regular";
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/*оформление shop-div-text */
+
+
+
+
+
+
+
+
+/* оформление shop-div */
+
+.shop-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.shop-money h2,
+.shop-money p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10.05px;
+    margin-right: 10.05px;
+}
+
+/* оформление shop-div */
+
+
+
+/* отступы shop-div*/
+
+.shop-are img {
+    margin-top: 58px;
+}
+
+.shop-money {
+    margin-top: 8px;
+}
+
+/* отступы shop-div*/
+
+
+
+/* стили shop-div */
+
+.shop-are h1 {
+    margin-top: 22px;
+    font-family: "jost-regular";
+    font-size: 19px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.shop-money h2 {
+    font-family: "jost-regular";
+    font-size: 14px;
+    font-weight: 400;
+    color: #f6633e;
+}
+
+.shop-money p {
+    text-decoration: line-through;
+    color: #454545;
+
+    font-family: "jost-regular";
+    font-size: 14px;
+    font-weight: 400;
+    color: #454545;
+}
+
+/* стили shop-div */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* оформление shop-button */
+
+.shop-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+
+}
+
+.button-all {
+    display: inline-block;
+
+    background-color: transparent;
+    border: 2px solid #f6623e;
+    color: #333;
+    padding: 16px 45px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-all:hover {
+    background-color: #f6633e6c;
+
+}
+
+.button-beauty {}
+
+.button-beauty:hover {
+    background-color: #f6633e6c;
+    ;
+
+}
+
+/* оформление shop-button */
+
+
+
+
+/* стили shop-button */
+.button-all a {
+    text-decoration: none;
+    font-family: "jost-regular";
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* стили shop-button */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* оформление glav-text-latest */
+
+.glav-text-latest {
+    display: flex;
+    justify-content: center;
+    margin-top: 118px;
+}
+
+/* оформление glav-text-latest */
+
+/* стили glav-text-latest */
+
+.latest-text h1 {
+    font-family: "jost-regular";
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* стили glav-text-latest */
+
+
+
+
+
+
+
+
+
+
+
+/* оформление glav-latest */
+
+.glav-latest {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+
+
+/* оформление glav-latest */
+
+
+
+
+/* стили glav-latest-news */
+
+
+/* стили glav-latest-news */
+
+.glav-news-div h1 {
+    font-family: "jost-regular";
+    font-size: 17px;
+    font-weight: 400;
+    color: #F6623E;
+}
+
+.glav-news-div h2 {
+    font-family: "jost-regular";
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.glav-news-div p {
+    font-family: "jost-regular";
+    font-size: 15px;
+    font-weight: 400;
+    color: #828181;
+}
+
+.news-button a {
+    background: #f6623e;
+    padding: 8px 25px;
+    text-decoration: none;
+    margin-top: 40px;
+    transition: color 0.3s linear;
+}
+
+.news-button a:hover {
+    color: #000000;
+}
+
+.news-button a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.news-button {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* отсупы glav-latest-news */
+
+.glav-latest-news img {
+    margin-top: 49px;
+}
+
+.glav-latest-news h1 {
+    margin-top: 15px;
+}
+
+.glav-latest-news h2 {
+    margin-top: 15px;
+}
+
+.glav-latest-news p {
+    margin-top: 15px;
+}
+
+.latest-button {
+    margin-top: 30px;
+}
+
+/* отсупы glav-latest-news */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* оформление goodme-glav */
+
+.goodme-glav {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+/* оформление goodme-glav */
+
+
+/* стили goodme-text */
+
+.goodme-text {
+    font-family: "jost-regular";
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* стили goodme-text */
+
+.goodme-glav-foto {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.goodme-foto img {
+
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+
+/* стили goodme-text */
+
+
+
+
+
+
+
+
+
+
+
+/* оформление footer */
+.foto-glav-div-dop {
+    background-image: url(./footer-foto/1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.style-more {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 221px;
+    padding-right: 140px;
+    gap: 80px;
+
+
+
+}
+
+
+.glav-description h2,
+.glav-description-footer h2,
+.more-info-footer h1 {
+    padding-top: 12px;
+}
+
+.button-footer h1,
+.button-footer a {
+
+    padding-left: 150px;
+    padding-right: 155px;
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+
+
+.button-footer {
+    margin-top: 32px;
+}
+
+.button-footer h1,
+.button-footer h2 {}
+
+
+
+.more-info-footer h2,
+.more-info-footer h3,
+.more-info-footer h4,
+.more-info-footer h5,
+.more-info-footer p,
+.more-info-footer li {
+    padding-top: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* оформление footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* стили  footer*/
+
+.glav-description h1,
+.glav-description-footer h1,
+.more-info-footer h6 {
+    font-family: "jost-regular";
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+.glav-description h2,
+.glav-description-footer h2,
+.more-info-footer h1,
+.more-info-footer h2,
+.more-info-footer h3,
+.more-info-footer h4,
+.more-info-footer h5,
+.more-info-footer p,
+.more-info-footer li {
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+    color: #454545;
+}
+
+
+.button-footer h1 {
+    text-decoration: none;
+    font-family: "jost-regular";
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.button-footer a {
+    text-decoration: none;
+    font-family: "jost-regular";
+    font-size: 20px;
+    font-weight: 700;
+    color: #F6623E;
+
+}
+
+
+/* стили  footer*/
+
+
+
+
+
+
+
+
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.glav-text-footer P {
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.orange {
+    font-family: "jost-regular";
+    font-size: 16px;
+    font-weight: 400;
+    color: #f6633e;
+}
+
+.foto-dop-dop {
+    padding-left: 10px;
+}
+
+.foto-vel {
+    padding-left: 10px;
+}
+
+.foto {
+    padding-left: 10px;
+}
+
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 0 15px;
+    }
+
+    .contanier {}
+
+    .foto-glav {
+        padding-right: 20px;
+        height: auto;
+        /* Автоматическая высота */
+        /* use max-height for real constraints */
+    }
+
+    .flags {
+        flex-direction: row;
+        /* Измените на 'column', если необходимо */
+        justify-content: center;
+        /* Центрирование элементов */
+    }
+
+    .text-header {
+        font-size: 14px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .text-glav-niz h2,
+    .text-glav-niz h3 {
+        font-size: 36px;
+        /* Уменьшение заголовков */
+    }
+}
+
+@media (max-width: 768px) {
+    .contanier {
+        padding: 10px;
+        /* Минимальные отступы */
+    }
+
+    .glav-margin {
+        padding-right: 10px;
+        /* Уменьшение отступа */
+        padding-top: 50px;
+    }
+
+    .foto-glav {
+        height: 50vh;
+        /* Уменьшение высоты для мобильных */
+        background-size: cover;
+        /* Изображение полностью заполняет контейнер */
+    }
+
+    .text-glav-niz h1 {
+        font-size: 24px;
+        /* Дальнейшее уменьшение размера заголовка */
+    }
+
+    .button-all,
+    .button-beauty {
+        width: 100%;
+        /* Кнопки занимают всю ширину */
+        padding: 10px;
+        /* Увеличение пространства для нажатия */
+    }
+
+    .products-div,
+    .shop-div {
+        flex-direction: column;
+        /* Вертикальное расположение для мобильных устройств */
+        align-items: center;
+        /* Центрирование вложенных элементов */
+        gap: 20px;
+        /* Увеличение промежутков между элементами */
+    }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .contanier {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-header {
+        display: none;
+
+    }
+
+
+
+    .logo-text a {
+        font-size: 25px;
+    }
+
+    .text-market a {
+        display: none;
+    }
+
+    .text-glav-niz h1,
+    .text-glav-niz h2,
+    .text-glav-niz h3 {
+
+        font-size: 20px;
+    }
+
+    .glav-margin {
+        margin-left: 20px;
+        text-align: center;
+
+    }
+
+    .kartocki-div {
+        flex-direction: column;
+        /* Изменить направление флекс-контейнера на колонное */
+        align-items: center;
+        /* Центрирование изображений по горизонтали */
+    }
+
+    .kartocki-div img {
+        width: 85%;
+        /* Ширина изображений в колонном режиме */
+    }
+
+    .site-description {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .glav-site {
+        margin: -70px 0;
+        /* Уменьшенный вертикальный отступ для адаптации */
+        flex: 1 1 35%;
+        /* На устройствах ≤ 480px элементы занимают 100% ширины */
+    }
+
+
+    .text-beauty {
+        justify-content: center;
+        text-align: center;
+        margin-top: -10px;
+        margin-left: 14px;
+    }
+
+    .foto-beauty img,
+    .foto-beauty-dop {
+        display: none;
+    }
+
+    .text-beauty-glav h1 {
+        font-size: 9vw;
+    }
+
+    .text-beauty-glav h2,
+    .text-beauty-glav h3,
+    .text-beauty-glav p {
+        font-size: 20px;
+    }
+
+
+
+
+
+    .button-beauty {
+        display: flex;
+        /* Используем flex для выравнивания */
+        justify-content: center;
+        /* Центруем содержимое */
+        width: 96%;
+        /* Обеспечим, что контейнер кнопки занимает 100% ширины */
+        box-sizing: border-box;
+        /* Учитываем отступы и границы в ширину */
+    }
+
+    .button-text {
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .real-foto-dop img {
+        display: none;
+
+    }
+
+    .real-div-dop {
+        display: flex;
+        justify-content: ;
+        flex-direction: column;
+        text-align: center;
+
+
+    }
+
+    .real-text-dop h1 {
+        font-size: 4.4vw;
+    }
+
+    .real-button img {
+        width: 80%;
+    }
+
+    .real-estimation img {
+        max-width: 10%;
+        height: auto;
+        margin: 4px;
+        padding-top: 15px;
+    }
+
+    .shop-are img{
+        width: 85%;
+    }
+    .shop-are h1{
+        font-size: 5vw;
+    }
+    .products-are h1{
+        font-size: 5vw;
+    }
+
+    .glav-news-div img{
+
+        width: 85%;
+    }
+
+    .shop-button {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .button-all a {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .glav-latest {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .goodme-text h1 {
+        display: none;
+    }
+
+    .goodme-foto img {
+        display: none;
+    }
+
+    .footer-div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .glav-text-footer p,
+    .orange
+    {
+        font-size: 4.5vw;
+    }
+
+    .img-channels{
+        display: none;
+    }
+
+    .glav-description-dop-footer {
+        margin-left: 11vw;
+    }
+
+    .glav-description h1,
+    .glav-description h2 {
+        display: none;
+    }
+
+    .more-info-footer {
+        display: none;
+    }
+
+    .button-footer a {
+        display: flex;
+        flex-direction: row;
+        /* Вертикальное расположение */
+    }
+
+    .button-footer h1 {
+        display: none;
+    }
+
+    .button-footer img {
+        width: 60%;
+        /* Устанавливаем ширину 50% от родительского элемента */
+        height: auto;
+        /* Сохраняем пропорции */
+    }
+
+
+    .products-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .products-text h1 {
+        font-size: 30px;
+    }
+
+
+    .products-are img {
+        width: 85%;
+        /* Ширина изображений в колонном режиме */
+    }
+
+
+}
